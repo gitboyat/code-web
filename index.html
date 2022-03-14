@@ -1,0 +1,670 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.0.2/dist/css/bootstrap.min.css" rel="stylesheet"
+        integrity="sha384-EVSTQN3/azprG1Anm3QDgpJLIm9Nao0Yz1ztcQTwFspd3yD65VohhpuuCOmLASjC" crossorigin="anonymous">
+    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.0.2/dist/js/bootstrap.bundle.min.js"
+        integrity="sha384-MrcW6ZMFYlzcLA8Nl+NtUVF0sA7MsXsP1UyJoMp4YLEuNSfAP+JcXn/tWtIaxVXM"
+        crossorigin="anonymous"></script>
+
+    <link rel="stylesheet" href="https://use.fontawesome.com/releases/v5.15.4/css/all.css"
+        integrity="sha384-DyZ88mC6Up2uqS4h/KRgHuoeGwBcD4Ng9SiP4dIRy0EXTlnuz47vAwmeGwVChigm" crossorigin="anonymous" />
+    <script src="https://code.jquery.com/jquery-3.6.0.js"
+        integrity="sha256-H+K7U5CnXl1h5ywQfKtSj8PCmoN9aaq30gDh27Xc0jk=" crossorigin="anonymous"></script>
+    <script defer src="https://use.fontawesome.com/releases/v5.15.4/js/solid.js"
+        integrity="sha384-/BxOvRagtVDn9dJ+JGCtcofNXgQO/CCCVKdMfL115s3gOgQxWaX/tSq5V8dRgsbc"
+        crossorigin="anonymous"></script>
+    <script defer src="https://use.fontawesome.com/releases/v5.15.4/js/fontawesome.js"
+        integrity="sha384-dPBGbj4Uoy1OOpM4+aRGfAOc0W37JkROT+3uynUgTHZCHZNMHfGXsmmvYTffZjYO"
+        crossorigin="anonymous"></script>
+
+
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/OwlCarousel2/2.3.4/assets/owl.carousel.min.css"
+        integrity="sha512-tS3S5qG0BlhnQROyJXvNjeEM4UpMXHrQfTGmbQ1gKmelCxlSEBUaxhRBj/EFTzpbP4RVSrpEikbmdJobCvhE3g=="
+        crossorigin="anonymous" referrerpolicy="no-referrer" />
+    <link rel="stylesheet"
+        href="https://cdnjs.cloudflare.com/ajax/libs/OwlCarousel2/2.3.4/assets/owl.theme.default.min.css"
+        integrity="sha512-sMXtMNL1zRzolHYKEujM2AqCLUR9F2C4/05cdbxjjLSRvMQIciEPCQZo++nk7go3BtSuK9kfa/s+a4f4i5pLkw=="
+        crossorigin="anonymous" referrerpolicy="no-referrer" />
+
+    <link href="https://unpkg.com/aos@2.3.1/dist/aos.css" rel="stylesheet">
+
+    <link rel="stylesheet" href="css/boot.css">
+
+    <title>bootstrap project</title>
+</head>
+
+<body>
+
+    <navbar class="nav d-flex justify-content-around aling-item-center ">
+
+        <a href="#" class="logo ">
+
+            logo
+        </a>
+
+        <ul class="menu d-md-flex align-items-center m-0  ">
+            <li><a href="file:///C:/Users/Rahul/Desktop/bootstrap%20project/index.html#">Home</a></li>
+            <li><a href="#about" class="menu_bar">About</a></li>
+            <li><a href="#services" class="menu_bar">Services</a></li>
+            <li><a href="#team" class="menu_bar">Team</a></li>
+            <li><a href="#" class="menu_bar">Drop Down</a></li>
+            <li><a href="#contact" class="menu_bar">Contact</a></li>
+
+        </ul>
+
+        <div class="menu_bar d-flex align-items-center d-md-none">
+            <i class="fas fa-bars open_bar d-flex "></i>
+
+        </div>
+
+    </navbar>
+
+    <div id="carouselExampleCaptions home" class="carousel slide" data-bs-ride="carousel">
+        <div class="carousel-indicators">
+            <button type="button" data-bs-target="#carouselExampleCaptions" data-bs-slide-to="0" class="active"
+                aria-current="true" aria-label="Slide 1"></button>
+            <button type="button" data-bs-target="#carouselExampleCaptions" data-bs-slide-to="1"
+                aria-label="Slide 2"></button>
+            <button type="button" data-bs-target="#carouselExampleCaptions" data-bs-slide-to="2"
+                aria-label="Slide 3"></button>
+        </div>
+        <div class="carousel-inner">
+            <div class="carousel-item active">
+                <img src="img/n1.jpg" class="d-block w-100" alt="image">
+                <div class="carousel-caption d-none d-md-block">
+                    <h5>First slide label</h5>
+                    <p>Some representative placeholder content for the first slide.</p>
+                </div>
+            </div>
+            <div class="carousel-item">
+                <img src="img/n2.jpg" class="d-block w-100" alt="image">
+                <div class="carousel-caption d-none d-md-block">
+                    <h5>Second slide label</h5>
+                    <p>Some representative placeholder content for the second slide.</p>
+                </div>
+            </div>
+            <div class="carousel-item">
+                <img src="img/n3.jpg" class="d-block w-100" alt="image">
+                <div class="carousel-caption d-none d-md-block">
+                    <h5>Third slide label</h5>
+                    <p>Some representative placeholder content for the third slide.</p>
+                </div>
+            </div>
+        </div>
+        <button class="carousel-control-prev" type="button" data-bs-target="#carouselExampleCaptions"
+            data-bs-slide="prev">
+            <span class="carousel-control-prev-icon" aria-hidden="true"></span>
+            <span class="visually-hidden">Previous</span>
+        </button>
+        <button class="carousel-control-next" type="button" data-bs-target="#carouselExampleCaptions"
+            data-bs-slide="next">
+            <span class="carousel-control-next-icon" aria-hidden="true"></span>
+            <span class="visually-hidden">Next</span>
+        </button>
+    </div>
+
+
+
+    <!-- about section start -->
+
+    <section class="about_container mt-5 pt-5 container0 " id="about">
+        <div class="row container mx-auto mb-5">
+
+            <div class="about_heading mt-5 ">
+                <h2>About
+                    <hr class="w-25 text-danger ">
+                </h2>
+
+            </div>
+
+            <div class="col-md-6  fade-down-right">
+                <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Eos rem, laboriosam debitis molestias in
+                    illo ratione sequi commodi, accusamus aliquam repellat </p>
+                <ul>
+
+                    <li> <i class="fas fa-check-double"></i>Lorem ipsum dolor sit amet consectetur adipisicing elit.
+                        Corrupti vitae </li>
+
+                    <li> <i class="fas fa-check-double"></i>Lorem ipsum dolor sit amet consectetur adipisicing elit.
+                        Corrupti vitae </li>
+
+                    <li> <i class="fas fa-check-double"></i>Lorem ipsum dolor sit amet consectetur adipisicing elit.
+                        Corrupti vitae </li>
+                </ul>
+
+            </div>
+
+            <div class="col-md-6">
+                <p> Lorem ipsum, dolor sit amet consectetur adipisicing elit. Quaerat pariatur laboriosam iure
+                    reiciendis nihil, numquam itaque modi quam accusamus perspiciatis ipsum. Dicta cupiditate soluta
+                    dolorum minima eveniet repellendus doloremque dolore necessitatibus accusantium consectetur.</p>
+
+                <button class="btn btn-outline-primary py-2 px-3">
+                    Read More
+                </button>
+            </div>
+    </section>
+
+
+    <!-- services section start -->
+
+    <section class="service_container mt-5 pt-4  " id="services">
+
+        <div class="row container mx-auto mt-5">
+
+            <div class="service_heading mt-3">
+                <h2>Services</h2>
+                <hr class="w-25">
+
+                <p>Lorem, ipsum dolor sit amet consectetur adipisicing elit. Vitae, odio praesentium, libero dolorum
+                    maxime atque eius facilis facere ipsa ad adipisci perspiciatis sequi. Lorem ipsum dolor sit amet
+                    consectetur adipisicing elit. Eius temporibus dicta quidem?</p>
+
+            </div>
+
+            <div class="col-md-6 col-lg-4 mt-2  ">
+
+                <div class="icon_box ">
+                    <div class="box">
+                        <i class="fas fa-grin icon"></i>
+                    </div>
+
+                    <h2>Sed ut perspiciatis</h2>
+                    <p>Lorem ipsum dolor sit amet consectetur, adipisicing elit. Quo ea in quaerat voluptatem cumques
+                    </p>
+                    <button class="btn btn-outline-danger">Click Me</button>
+
+                </div>
+            </div>
+
+            <div class="col-md-6 col-lg-4 mt-2  ">
+
+                <div class="icon_box ">
+                    <div class="box">
+                        <i class="fas fa-grin icon"></i>
+                    </div>
+                    <h2>Sed ut perspiciatis</h2>
+                    <p>Lorem ipsum dolor sit amet consectetur, adipisicing elit. Quo ea in quaerat voluptatem cumques
+                    </p>
+                    <button class="btn btn-outline-danger">Click Me</button>
+
+                </div>
+
+            </div>
+
+            <div class="col-md-6 col-lg-4 mt-2  ">
+
+                <div class="icon_box ">
+                    <div class="box">
+                        <i class="fas fa-grin icon"></i>
+                    </div>
+                    <h2>Sed ut perspiciatis</h2>
+                    <p>Lorem ipsum dolor sit amet consectetur, adipisicing elit. Quo ea in quaerat voluptatem cumques
+                    </p>
+                    <button class="btn btn-outline-danger">Click Me</button>
+
+                </div>
+
+            </div>
+
+            <div class="col-md-6 col-lg-4 mt-2  ">
+
+
+                <div class="icon_box ">
+                    <div class="box">
+                        <i class="fas fa-grin icon"></i>
+                    </div>
+                    <h2>Sed ut perspiciatis</h2>
+                    <p>Lorem ipsum dolor sit amet consectetur, adipisicing elit. Quo ea in quaerat voluptatem cumques
+                    </p>
+                    <button class="btn btn-outline-danger">Click Me</button>
+
+                </div>
+            </div>
+
+            <div class="col-md-6 col-lg-4 mt-2  ">
+
+                <div class="icon_box ">
+                    <div class="box">
+                        <i class="fas fa-grin icon"></i>
+                    </div>
+                    <h2>Sed ut perspiciatis</h2>
+                    <p>Lorem ipsum dolor sit amet consectetur, adipisicing elit. Quo ea in quaerat voluptatem cumques
+                    </p>
+                    <button class="btn btn-outline-danger">Click Me</button>
+
+                </div>
+            </div>
+
+            <div class="col-md-6 col-lg-4 mt-2  ">
+
+
+                <div class="icon_box ">
+                    <div class="box">
+                        <i class="fas fa-grin icon"></i>
+                    </div>
+
+                    <h2>Sed ut perspiciatis</h2>
+                    <p>Lorem ipsum dolor sit amet consectetur, adipisicing elit. Quo ea in quaerat voluptatem cumques
+                    </p>
+                    <button class="btn btn-outline-danger">Click Me</button>
+
+                </div>
+            </div>
+
+        </div>
+
+    </section>
+
+
+
+    <!-- other section start -->
+
+    <section class="Other_section bg-dark">
+        <div class="row  container mx-auto py-5 bg-dark text-light">
+            <div class="col-md-9">
+                <h2>
+                    Call To Action
+
+                </h2>
+                <p> Duis aute irure dolor in reprehenderit in voluptate velit esse cillum dolore eu fugiat nulla
+                    pariatur. Excepteur sint occaecat cupidatat non proident, sunt in culpa qui officia deserunt mollit
+                    anim id est laborum.</p>
+
+            </div>
+
+            <div class="col-md-3">
+                <button class="btn- btn-success mt-5 px-4 py-2 border rounded-pill">
+                    CALL TO ACTION
+                </button>
+
+            </div>
+        </div>
+    </section>
+
+
+
+
+    <!-- team section start -->
+
+    <section class="team_container mt-5 mb-5" id="team">
+
+
+        <div class="row container mx-auto gy-5">
+            <div class="team_heading mt-5 pt-5">
+                <h2>
+                    Team
+                </h2>
+                <hr class="w-25">
+                <h2 class="text-primary">OUR HARDWORKING TEAM</h2>
+
+            </div>
+
+
+
+            <div class="col-sm-6 col-lg-3">
+
+                <div class="card">
+                    <div class="inner_card">
+                        <div class="front_card">
+                            <img src="img/m1.jpg">
+
+                        </div>
+                        <div class="back_card">
+                            <h2>Lorem</h2>
+                            <P>Lorem ipsum dolor sit. Lorem ipsum dolor sit amet consectetur adipisicing elit.</P>
+
+                            <button class="btn btn-outline-primary mb-4">
+                                Read more
+                            </button>
+
+                        </div>
+                    </div>
+                </div>
+            </div>
+
+            <div class="col-sm-6 col-lg-3">
+
+                <div class="card">
+                    <div class="inner_card">
+                        <div class="front_card">
+                            <img src="img/m1.jpg">
+
+                        </div>
+                        <div class="back_card">
+                            <h2>Lorem</h2>
+                            <P>Lorem ipsum dolor sit. Lorem ipsum dolor sit amet consectetur adipisicing elit.</P>
+                            <button class="btn btn-outline-primary mb-4">
+                                Read more
+                            </button>
+
+                        </div>
+
+                    </div>
+                </div>
+            </div>
+
+            <div class="col-sm-6 col-lg-3">
+
+                <div class="card">
+                    <div class="inner_card">
+                        <div class="front_card">
+                            <img src="img/face1.jpg">
+
+                        </div>
+                        <div class="back_card">
+                            <h2>Lorem</h2>
+                            <P>Lorem ipsum dolor sit. Lorem ipsum dolor sit amet consectetur adipisicing elit.</P>
+                            <button class="btn btn-outline-primary mb-4">
+                                Read more
+                            </button>
+
+                        </div>
+
+                    </div>
+                </div>
+
+            </div>
+
+            <div class="col-sm-6 col-lg-3">
+
+                <div class="card">
+                    <div class="inner_card">
+                        <div class="front_card">
+                            <img src="img/m1.jpg">
+
+                        </div>
+                        <div class="back_card">
+                            <h2>Lorem</h2>
+                            <P>Lorem ipsum dolor sit. Lorem ipsum dolor sit amet consectetur adipisicing elit.</P>
+                            <button class="btn btn-outline-primary mb-4">
+                                <a href="boot.html#"> Read more</a>
+
+                            </button>
+
+                        </div>
+                    </div>
+                </div>
+            </div>
+
+
+
+        </div>
+
+    </section>
+
+
+    <div class="customer_view">
+
+        <div class="owl-carousel owl-theme container text-center">
+            <div class="item">
+                <div class="team_view">
+
+                    <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Ipsa nisi fuga cumque eius. Lorem ipsum
+                        dolor sit amet, consectetur adipisicing elit. Saepe delectus aliquid repellat deleniti
+                        cupiditate corporis debitis explicabo unde et,</p>
+                    <div class="img mx-auto rounded-circle overflow-hidden ">
+                        <img src="img/face1.jpg ">
+                    </div>
+
+
+
+
+                </div>
+
+            </div>
+
+            <div class="item">
+                <div class="team_view">
+
+                    <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Ipsa nisi fuga cumque eius. Lorem ipsum
+                        dolor sit amet, consectetur adipisicing elit. Saepe delectus aliquid repellat deleniti
+                        cupiditate corporis debitis explicabo unde et,</p>
+
+
+                    <div class="img mx-auto rounded-circle overflow-hidden mt-3 ">
+                        <img src="img/m1.jpg ">
+                    </div>
+
+
+
+                </div>
+
+            </div>
+            <div class="item">
+                <div class="team_view">
+
+                    <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Ipsa nisi fuga cumque eius. Lorem ipsum
+                        dolor sit amet, consectetur adipisicing elit. Saepe delectus aliquid repellat deleniti
+                        cupiditate corporis debitis explicabo unde et,</p>
+                    <div class="img mx-auto rounded-circle overflow-hidden ">
+                        <img src="img/m1.jpg ">
+                    </div>
+
+
+
+
+                </div>
+
+            </div>
+
+        </div>
+    </div>
+
+
+
+    <section class="contact_page my-4 py-5 mt-5" id="contact">
+
+        <div class="row container mx-auto gy-3 mt-3">
+
+            <div class="contact_heading">
+                <h1>Contact </h1>
+                <hr class="w-25">
+
+            </div>
+
+            <div class="col-md-6">
+                <div class="contact_text">
+                    <h>Lorem, dolor.</h>
+                    <p>Lorem ipsum dolor, sit amet consectetur adipisicing elit. Hic ad minus accusamus impedit labore
+                        debitis, esse, pariatur necessitatibus, tempore molestias quae quasi tenetur.</p>
+
+                </div>
+
+
+            </div>
+
+            <div class="col-md-6">
+
+                <div class="contact_detail ">
+                    <form action="/action_page.php">
+                        <input type="text" id="name" placeholder="Name">
+                        <input type="tel" id="phone" placeholder="phone">
+                        <input type="email" id="email" placeholder="Email">
+                        <textarea id="textarea">messages please</textarea>
+                        <submit class="btn">Submit</submit>
+                    </form>
+
+                </div>
+
+
+            </div>
+
+        </div>
+
+    </section>
+
+
+
+    <!-- footer section start -->
+
+    <section class="footer" id="footer">
+        <div class="row container mx-auto gy-2">
+            <div class="col-md-3">
+                <div class="footer_text">
+                    <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Quaerat ullam magnam omnis nisi pariatur
+                        repellendus vel tempore suscipit architecto et.</p>
+
+                </div>
+
+
+            </div>
+
+            <div class="col-md-3">
+
+
+                <ul>
+
+                    <h5>LINKS</h5>
+                    <li><a href="file:///C:/Users/Rahul/Desktop/bootstrap%20project/index.html#">Home</a></li>
+                    <li><a href="#about">About</a></li>
+                    <li><a href="#services">Services</a></li>
+                    <li><a href="#team">Team</a></li>
+                    <li><a href="#contact">Contact</a></li>
+
+                </ul>
+
+            </div>
+
+            <div class="col-md-3">
+
+                <ul>
+                    <h5>MENU</h5>
+                    <li><a href="file:///C:/Users/Rahul/Desktop/bootstrap%20project/FAQ.html">FAQ</a></li>
+                    <li><a href="file:///C:/Users/Rahul/Desktop/bootstrap%20project/blog.html">Blog</a></li>
+                    <li><a href="#feedback">feedback</a></li>
+                </ul>
+
+
+            </div>
+
+            <div class="col-md-3">
+
+                <div class="search_box">
+                    <input type="search" id="search_box" placeholder="Search ">
+
+                </div>
+
+            </div>
+
+        </div>
+
+    </section>
+
+
+    <!-- modal section start -->
+
+
+    <section class="modal_page">
+<div class="modal fade" id="exampleModalToggle" aria-hidden="true" aria-labelledby="exampleModalToggleLabel" tabindex="-1">
+  <div class="modal-dialog modal-dialog-centered">
+    <div class="modal-content">
+      <div class="modal-header">
+       <h2>Contact details</h2>
+        <button type="button" class="btn-close" data-bs-dismiss="modal" aria-label="Close"></button>
+      </div>
+      <div class="modal-body">
+        
+        <div class="col-md-6">
+
+            <div class="contact_detail ">
+                <form action="/action_page.php">
+                    <input type="text" id="name" placeholder="Name">
+                    <input type="tel" id="phone" placeholder="phone">
+                    <input type="email" id="email" placeholder="Email">
+                    <textarea id="textarea">messages please</textarea>
+                    <submit class="btn">Submit</submit>
+                </form>
+
+            </div>
+
+
+        </div>
+      </div>
+     
+    </div>
+  </div>
+</div>
+ 
+</div> 
+<a class="btn btn-primary" data-bs-toggle="modal" href="#exampleModalToggle" role="button">Open first modal</a>
+        
+
+    </section>
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+    <script src="https://unpkg.com/aos@2.3.1/dist/aos.js"></script>
+
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/jquery/3.5.1/jquery.min.js"
+        integrity="sha512-bLT0Qm9VnAYZDflyKcBaQ2gg0hSYNQrJ8RilYldYQ1FxQYoCLtUjuuRuZo+fjqhx/qtq/1itJ0C2ejDxltZVFg=="
+        crossorigin="anonymous" referrerpolicy="no-referrer"></script>
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/OwlCarousel2/2.3.4/owl.carousel.min.js"
+        integrity="sha512-bPs7Ae6pVvhOSiIcyUClR7/q2OAsRiovw4vAkX+zJbw3ShAeeqezq50RIIcIURq7Oa20rW2n2q+fyXBNcU9lrw=="
+        crossorigin="anonymous" referrerpolicy="no-referrer"></script>
+
+
+    <script type="text/javascript">
+        $(document).ready(function () {
+            $(".menu_bar").click(function () {
+                $(".menu").slideToggle()
+            });
+
+
+        });
+
+        $('.owl-carousel').owlCarousel({
+            loop: true,
+            margin: 10,
+            nav: false,
+            autoplay: true,
+            autoplayTimeout: 2000,
+
+            dots: false,
+            responsive: {
+                0: {
+                    items: 1
+                },
+                600: {
+                    items: 1
+                },
+                1200: {
+                    items: 3
+                }
+            }
+        })
+
+
+        AOS.init();
+
+
+    </script>
+
+   
+
+</body>
+
+</html>
