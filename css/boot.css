@@ -301,12 +301,10 @@ img{
 
 }
 
-
 .contact_page .contact_heading h1{
     color: white;
 
 }
-
 
 .contact_page{  
     /* border: 1px solid red; */
@@ -328,7 +326,6 @@ img{
     color:white;
 }
 
-
 /* .contact_detail form{
      border: 1px solid black; 
   
@@ -338,7 +335,6 @@ img{
     display: flex;
     flex-direction: column ;
    
-
 }
 
 .contact_detail form .btn{
@@ -492,9 +488,10 @@ img{
   }
 
 
- 
 
-.login_form form{
+ /* login form styling */
+
+  .login_form form{
       display: flex;
       flex-direction: column;
     
@@ -524,6 +521,10 @@ img{
       background: lightblue;
       /* color: white; */
   }
+
+
+
+
 
 
   
