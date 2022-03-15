@@ -491,6 +491,41 @@ img{
       margin-top: 5px;
   }
 
+
+ form login styleing start
+
+.login_form form{
+      display: flex;
+      flex-direction: column;
+    
+  }
+
+  .login_form form label{
+      font-size: 21px;
+  }
+
+  .login_form form input{
+      height: 34px;
+      margin: 5px 6px;
+      padding-left: 7px;
+      outline: none;
+  }
+
+  .login_form form .btn{
+      padding: 2px 3px;
+      border: 1px solid #ff7675;
+      margin: 5px 5px;
+      padding: 4px 6px;
+      
+  }
+
+
+  .login_form form .btn:hover{
+      background: lightblue;
+      /* color: white; */
+  }
+
+
   
 
 
